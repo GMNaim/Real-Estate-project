@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'pages',
     'listings',
     'realtors',
+    'accounts',
+    'django.contrib.humanize',  # for getting the comma in the price in frontend(html page)
+
 ]
 
 MIDDLEWARE = [
@@ -78,8 +81,11 @@ WSGI_APPLICATION = 'BT_Real_Estate.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'bt_real_estate_db',
+        'USER': 'postgres',
+        'PASSWORD': 'Bismillah',
+        'HOST': 'localhost'
     }
 }
 
@@ -108,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Dhaka'
 
 USE_I18N = True
 
@@ -125,3 +131,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'BT_Real_Estate/static')
 ]
+
+# Media folders settings
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
