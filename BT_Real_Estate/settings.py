@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+SECRET_KEY = 'r-g5&epezba@9s5u+_b&(y9dy-$s#!3pknmtk64=an(l_pz=z1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'BT_Real_Estate.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
+        'NAME': 'bt_real_estate_db',
+        'USER': 'postgres',
+        'PASSWORD': 'Bismillah',
         'HOST': 'localhost'
     }
 }
@@ -135,3 +135,11 @@ STATICFILES_DIRS = [
 # Media folders settings
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+# Error or success MESSAGES
+from django.contrib.messages import constants as messages
+MESSAGES_TAGS = {
+    messages.ERROR: 'danger'
+}
+
+

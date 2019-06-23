@@ -1,0 +1,25 @@
+{# snippet for bootstrap django error or success messages output#}
+
+{% if messages %}
+    {% for message in messages %}
+        <div id="message" class="container">
+        {% if message is error %}
+            <div class="alert alert-{{ message.tags }} alert-dismissible text-center" style="color: #721c24; background-color: #f8d7da; border-color: #f5c6cb;" role="alert">
+        {% else %}
+            <div class="alert alert-{{ message.tags }} alert-dismissible text-center" role="alert">
+        {% endif %}
+    <button type="button" class="close" data-dismiss="alert">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <strong>
+        {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+            Error:
+        {% else %}
+            {{ message.tags|title }}
+        {% endif %}
+    </strong>
+    {{ message }}
+    </div>
+    </div>
+    {% endfor %}
+{% endif %}

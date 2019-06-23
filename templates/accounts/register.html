@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
-
+{# for showing the each page name in the title#}
+{% block title %} | Register Account {% endblock %}
 {% block content %}
 
 
@@ -13,6 +14,9 @@
                 <i class="fas fa-user-plus"></i> Register</h4>
             </div>
             <div class="card-body">
+                <!-- Alerts messages -->
+                {% include 'partials/_alerts.html' %}
+
                 <form action="{% url 'register' %}" method="POST">
                     {% csrf_token %}
                   <div class="form-group">

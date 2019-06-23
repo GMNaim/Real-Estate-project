@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
-
+{# for showing the each page name in the title#}
+{% block title %} | Account Login {% endblock %}
 {% block content %}
 
      <section id="login" class="bg-light py-5">
@@ -12,7 +13,11 @@
                 <i class="fas fa-sign-in-alt"></i> Login</h4>
             </div>
             <div class="card-body">
-              <form action="{% url 'login' %}">
+
+                <!-- Alerts messages -->
+                {% include 'partials/_alerts.html' %}
+
+              <form action="{% url 'login' %}" method="POST">
                   {% csrf_token %}
                 <div class="form-group">
                   <label for="username">Username</label>
