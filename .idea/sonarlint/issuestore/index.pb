@@ -62,3 +62,15 @@ P
  BT_Real_Estate/static/js/main.js,d\4\d48ccde5ccb269697f250814f8bcdb64c65dd43a
 O
 templates/partials/_alerts.html,a\4\a436e0040a07b6596057c458c0f5a5bfc31e66a5
+C
+templates/base.html,d\a\da7c237b85a69c00a9ab8c189bf63e22070fcac3
+B
+contacts/models.py,f\0\f0247e3904c566498f5424641e7c25d9856582be
+A
+contacts/admin.py,b\5\b53b19615e883808993649c5e812485e61e40ab0
+A
+realtors/views.py,6\b\6b5983c70ec5f26c45ba437301176b611adaabba
+@
+contacts/urls.py,3\1\31adf62619d940451b8eb41aec7b72d0b6ce7935
+A
+contacts/views.py,e\a\ea96aa7b582a854d276e39b492f4b987a0715914
