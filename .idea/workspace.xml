@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82fe981-0f45-4a4b-9cdf-849e4bcda070" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BT_Real_Estate/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BT_Real_Estate/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,26 +29,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BT_Real_Estate/settings.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="1">
-                <caret line="133" column="1" lean-forward="true" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+              <first_editor relative-caret-position="169">
+                <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               </first_editor>
               <second_editor relative-caret-position="-147" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BT_Real_Estate/local_settings.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="316">
-                <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <first_editor relative-caret-position="63">
+                <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               </first_editor>
-              <second_editor relative-caret-position="-147" />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -129,7 +137,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-26" />
+    <option name="x" value="10" />
     <option name="width" value="774" />
     <option name="height" value="745" />
   </component>
@@ -180,17 +188,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\G.M.NAIM\1PYTHON_learning\Django\Projects\BT Real Estate App\BT_Real_Estate\contacts" />
-      <recent name="G:\G.M.NAIM\1PYTHON_learning\Django\Projects\BT Real Estate App\BT_Real_Estate" />
-      <recent name="G:\G.M.NAIM\1PYTHON_learning\Django\Projects\BT Real Estate App\BT_Real_Estate\templates" />
-      <recent name="G:\G.M.NAIM\1PYTHON_learning\Django\Projects\BT Real Estate App\BT_Real_Estate\BT_Real_Estate" />
-      <recent name="G:\G.M.NAIM\1PYTHON_learning\Django\Projects\BT Real Estate App\BT_Real_Estate\pages\templates\pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\G.M.NAIM\1PYTHON_learning\Django\Projects\BT Real Estate App\BT_Real_Estate\templates\accounts" />
       <recent name="G:\G.M.NAIM\1PYTHON_learning\Django\Projects\BT Real Estate App\BT_Real_Estate\templates\listings" />
       <recent name="G:\G.M.NAIM\1PYTHON_learning\Django\Projects\BT Real Estate App\BT_Real_Estate\pages\templates\partials" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\G.M.NAIM\1PYTHON_learning\Django\Projects\BT Real Estate App\BT_Real_Estate\BT_Real_Estate" />
+      <recent name="G:\G.M.NAIM\1PYTHON_learning\Django\Projects\BT Real Estate App\BT_Real_Estate\contacts" />
+      <recent name="G:\G.M.NAIM\1PYTHON_learning\Django\Projects\BT Real Estate App\BT_Real_Estate" />
+      <recent name="G:\G.M.NAIM\1PYTHON_learning\Django\Projects\BT Real Estate App\BT_Real_Estate\templates" />
+      <recent name="G:\G.M.NAIM\1PYTHON_learning\Django\Projects\BT Real Estate App\BT_Real_Estate\pages\templates\pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -252,15 +260,15 @@
       <workItem from="1561303913061" duration="15136000" />
       <workItem from="1561402951315" duration="4966000" />
       <workItem from="1561408009257" duration="7829000" />
-      <workItem from="1561431590605" duration="9647000" />
+      <workItem from="1561431590605" duration="10181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122437000" />
+    <option name="totallyTimeSpent" value="122971000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-26" y="0" width="774" height="745" extended-state="0" />
+    <frame x="10" y="0" width="774" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2464986" />
@@ -313,17 +321,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BT_Real_Estate/settings.py</url>
-          <line>73</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pages/apps.py">
@@ -680,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/listings/urls.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
@@ -726,21 +716,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BT_Real_Estate/settings.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="1">
-            <caret line="133" column="1" lean-forward="true" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
-          </first_editor>
-          <second_editor relative-caret-position="-147" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BT_Real_Estate/local_settings.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="316">
-            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <first_editor relative-caret-position="63">
+            <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BT_Real_Estate/settings.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="169">
+            <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           </first_editor>
           <second_editor relative-caret-position="-147" />
         </state>

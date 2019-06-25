@@ -20,10 +20,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'r-g5&epezba@9s5u+_b&(y9dy-$s#!3pknmtk64=an(l_pz=z1'
+SECRET_KEY = 'your key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -83,9 +83,9 @@ WSGI_APPLICATION = 'BT_Real_Estate.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'bt_real_estate_db',
-        'USER': 'postgres',
-        'PASSWORD': 'Bismillah',
+        'NAME': 'btre',
+        'USER': 'dbadmin',
+        'PASSWORD': '12356',
         'HOST': 'localhost'
     }
 }
@@ -143,3 +143,14 @@ MESSAGES_TAGS = {
     messages.ERROR: 'danger'
 }
 
+# Email configuration
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'your host email'
+EMAIL_HOST_PASSWORD = 'your password'
+EMAIL_USE_TLS = True
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
