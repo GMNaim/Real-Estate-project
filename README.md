@@ -1,2 +1,2 @@
 # Real Estate project
-Project Real Estate by django
+Project Real Estate using *django*
